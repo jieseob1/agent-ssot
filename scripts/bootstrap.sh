@@ -2,7 +2,7 @@
 # bootstrap.sh — 최초 1회 실행으로 전체 세팅 완료
 # 사용법: NODE_ID=PublicJQ DISCORD_WEBHOOK_URL="https://..." ./scripts/bootstrap.sh
 
-set -euo pipefail
+set -uo pipefail
 
 REPO_DIR="${REPO_DIR:-$(git rev-parse --show-toplevel)}"
 NODE_ID="${NODE_ID:-}"
@@ -72,14 +72,18 @@ HEARTBEAT_CMD="NODE_ID=$NODE_ID REPO_DIR=$REPO_DIR DISCORD_WEBHOOK_URL=${DISCORD
 CRON_LINE="*/30 * * * * $HEARTBEAT_CMD"
 
 # 기존에 등록된 heartbeat cron 제거 후 재등록
-( crontab -l 2>/dev/null | grep -v 'heartbeat.sh' ; echo "$CRON_LINE" ) | crontab -
+EXISTING=$(crontab -l 2>/dev/null | grep -v 'heartbeat.sh' || true)
+printf '%s\n%s\n' "$EXISTING" "$CRON_LINE" | crontab - 2>/dev/null || true
 echo "      → cron 등록 완료"
 
 # ── 5. Git 최신화 ─────────────────────────────────────────────
 echo "[4/5] git pull --rebase..."
 cd "$REPO_DIR"
-git pull --rebase origin main
-echo "      → 최신 상태"
+if GIT_TERMINAL_PROMPT=0 git pull --rebase origin main 2>&1; then
+  echo "      → 최신 상태"
+else
+  echo "      → git pull 실패 (SSH키/네트워크 확인). 나중에 수동으로 실행하세요."
+fi
 
 # ── 6. 웹훅 테스트 ───────────────────────────────────────────
 echo "[5/5] Discord 웹훅 테스트..."
