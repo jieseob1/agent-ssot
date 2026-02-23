@@ -6,18 +6,12 @@
 ---
 
 ## Updated
-- {YYYY-MM-DD HH:MM} KST
+- 2026-02-23 21:00 KST (by PrivateJQ)
 
 ## Active Tasks
-| Task ID | Owner | Status | Summary |
-|---------|-------|--------|---------|
-| (없음) | — | — | — |
+```
+(없음)
+```
 
-## Latest Decisions
-- (없음)
-
-## Risks / Blockers
-- (없음)
-
-## Recent Snapshots
-- (없음)
+## Last Heartbeat
+- node=PrivateJQ alive=true task=none last_commit=08a684f
