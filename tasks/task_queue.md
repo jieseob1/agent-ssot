@@ -11,4 +11,3 @@
 - [ ] T-004 | P2 | owner= | status=TODO | scripts/heartbeat.sh 하트비트 스크립트 작성
 - [ ] T-005 | P2 | owner= | status=TODO | scripts/make_snapshot.sh 스냅샷 자동 생성 스크립트
 - [ ] T-006 | P3 | owner= | status=TODO | scripts/digest.py 이벤트 로그 digest 자동 생성
-- [ ] D-001 | P2 | owner=PublicJQ | status=IN_PROGRESS | <@1468963350216966228>  지금 해야할 일을 publicjq한테 시키자
