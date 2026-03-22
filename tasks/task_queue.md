@@ -7,4 +7,3 @@
 ---
 
 - [ ] T-002 | P1 | owner=PublicJQ | status=IN_PROGRESS | scripts/sync.sh Git 동기화 스크립트 작성
-- [ ] T-006 | P3 | owner=PublicJQ | status=IN_PROGRESS | scripts/digest.py 이벤트 로그 digest 자동 생성

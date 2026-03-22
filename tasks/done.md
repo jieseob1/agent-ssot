@@ -9,3 +9,4 @@
 - [x] T-003 | P1 | owner=PublicJQ | status=DONE | scripts/claim.py Task 선점(claim/lease) 자동화
 - [x] T-004 | P2 | owner=PublicJQ | status=DONE | scripts/heartbeat.sh 하트비트 스크립트 작성
 - [x] T-005 | P2 | owner=PublicJQ | status=DONE | scripts/make_snapshot.sh 스냅샷 자동 생성 스크립트
+- [x] T-006 | P3 | owner=PublicJQ | status=DONE | scripts/digest.py 이벤트 로그 digest 자동 생성
