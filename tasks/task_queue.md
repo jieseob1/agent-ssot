@@ -6,7 +6,6 @@
 
 ---
 
-- [ ] T-001 | P1 | owner=PublicJQ | status=IN_PROGRESS | scripts/init.sql 로컬 Runtime DB 스키마 생성
 - [ ] T-002 | P1 | owner= | status=TODO | scripts/sync.sh Git 동기화 스크립트 작성
 - [ ] T-003 | P1 | owner= | status=TODO | scripts/claim.py Task 선점(claim/lease) 자동화
 - [ ] T-004 | P2 | owner= | status=TODO | scripts/heartbeat.sh 하트비트 스크립트 작성
