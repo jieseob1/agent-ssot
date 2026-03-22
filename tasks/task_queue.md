@@ -7,6 +7,5 @@
 ---
 
 - [ ] T-002 | P1 | owner=PublicJQ | status=IN_PROGRESS | scripts/sync.sh Git 동기화 스크립트 작성
-- [ ] T-004 | P2 | owner=PublicJQ | status=IN_PROGRESS | scripts/heartbeat.sh 하트비트 스크립트 작성
 - [ ] T-005 | P2 | owner= | status=TODO | scripts/make_snapshot.sh 스냅샷 자동 생성 스크립트
 - [ ] T-006 | P3 | owner= | status=TODO | scripts/digest.py 이벤트 로그 digest 자동 생성
