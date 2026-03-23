@@ -7,3 +7,4 @@
 ---
 
 - [ ] T-002 | P1 | owner=PublicJQ | status=IN_PROGRESS | scripts/sync.sh Git 동기화 스크립트 작성
+- [ ] D-003 | P2 | owner=PublicJQ | status=IN_PROGRESS | 이걸 publicjq한테 시켜줘
