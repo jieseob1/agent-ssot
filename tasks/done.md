@@ -13,3 +13,4 @@
 - [x] D-002 | P2 | owner=PublicJQ | status=DONE | <@1468963350216966228>  현재 publicjq컴퓨터에 cloudflare tunnel을 만
 - [x] D-003 | P2 | owner=PublicJQ | status=DONE | 이걸 publicjq한테 시켜줘
 - [x] D-004 | P2 | owner=PublicJQ | status=DONE | <@1468963350216966228> ssh mac-server로 해서 들어갈수 있도록 만들어줘
+- [x] D-005 | P2 | owner=PublicJQ | status=DONE | <@1468963350216966228>  만들어줘
