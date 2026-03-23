@@ -14,3 +14,4 @@
 - [x] D-003 | P2 | owner=PublicJQ | status=DONE | 이걸 publicjq한테 시켜줘
 - [x] D-004 | P2 | owner=PublicJQ | status=DONE | <@1468963350216966228> ssh mac-server로 해서 들어갈수 있도록 만들어줘
 - [x] D-005 | P2 | owner=PublicJQ | status=DONE | <@1468963350216966228>  만들어줘
+- [x] D-006 | P2 | owner=PublicJQ | status=DONE | <@1468963350216966228> 참고로 도메인은 the-frameworks.com이야
